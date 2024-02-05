@@ -1,9 +1,17 @@
 # Web_Worker_Practice
+
 ## Brief Description
+
 This project focuses on evaluating the impact of employing Web Workers on website performance, particularly in scenarios involving computationally intensive tasks such as sorting large arrays.
+
 ## Instructions for Running Locally
-Steps
-1.Clone the project repository.
+
+### Steps
+
+1. **Clone the project repository:**
+   ```bash
+   git clone https://github.com/your-username/Web_Worker_Practice.git
+
 2.Install dependencies:npm install
 3.Start the local development server:npm start
 ## Summary of Findings
@@ -14,9 +22,9 @@ Parallel processing with Web Workers prevented the main thread from being blocke
 ## Challenges Faced and Solutions
 Challenge: Inter-thread communication overhead impacted performance gains.
 Solution: Employed optimized data transfer
-## Refrences
-https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API
-https://web.dev/articles/workers-basics
-https://benestudio.co/web-workers-in-javascript-and-when-to-use-them/
+## References
+MDN Web Docs - Web Workers API
+Web Workers Basics
+Web Workers in JavaScript and When to Use Them
 
 
