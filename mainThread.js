@@ -30,10 +30,9 @@ function sort(dataArray) {
     return sortedArray = dataArray.slice().sort();
 }
 function StartSorting_with_WebWorkers() {
-    console.log(" seene se tera sir ko lga ke sunta me rhu name apna")
-    const dataArray = generateLargeArray(arraysize);
-    const sortedarray = sort(dataArray);
-    worker.postMessage(sortedarray);
+    
+    const dataArray = generateLargeArray(arraysize);  
+    worker.postMessage(dataArray);
 }
 
 
