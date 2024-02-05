@@ -23,8 +23,9 @@ Parallel processing with Web Workers prevented the main thread from being blocke
 Challenge:   Inter-thread communication overhead impacted performance gains.
 Solution:   Employed optimized data transfer
 ## References
-MDN Web Docs - Web Workers API(https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
-Web Workers Basics(https://web.dev/articles/workers-basics)
-Web Workers in JavaScript and When to Use Them(https://benestudio.co/web-workers-in-javascript-and-when-to-use-them/)
+- [MDN Web Docs - Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
+- [Web Workers Basics](https://web.dev/articles/workers-basics)
+- [Web Workers in JavaScript and When to Use Them](https://benestudio.co/web-workers-in-javascript-and-when-to-use-them/)
+
 
 
