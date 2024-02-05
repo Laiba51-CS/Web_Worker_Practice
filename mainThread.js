@@ -3,7 +3,7 @@ let result2 = document.getElementById('result2');
 
 const worker = new Worker("worker.js");
 
-const arraysize=10000;
+const arraysize=10000000;
 function StartSorting_without_WebWorkers() {
     console.log("you clicked the button without web workers")
     const dataArray = generateLargeArray(arraysize);
@@ -17,6 +17,13 @@ function StartSorting_without_WebWorkers() {
     // Send the processing time back to the main thread
 
     result.innerText = `Processing time : ${processingTime} seconds`;
+}
+function changebackground(){
+    if (document.body.style.background !== "lightblue") {
+        document.body.style.background = "lightblue";
+      } else {
+        document.body.style.background = "pink";
+      }
 }
 
 function sort(dataArray) {
